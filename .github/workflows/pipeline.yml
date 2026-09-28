@@ -23,7 +23,7 @@ env:
   ECS_CLUSTER: ${{ secrets.ECS_CLUSTER }}
   ECS_SERVICE: ${{ secrets.ECS_SERVICE }} 
 
-
+jobs:
     gitleaks:
     name: Gitleaks Secret Scan
     runs-on: ubuntu-latest
